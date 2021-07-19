@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Web Form | COM109 | Assignment 2</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "my_style.css" />
+</head>
+<body>
+    <H1>Contact Form</H1>
+<a href="Image_Map.html"><p style="text-align: center">Click here to access the Main menu</a>
+
+<form name ="Contact">
+        <h2>Please enter your details in the boxes below</h2>
+    <p>First Name: <input type ="text" name = "First" /></p>
+    <p>Last Name: <input type ="text" name = "Last" /></p>
+    <p>Email address: <input type ="text" name = "Email" /></p>
+    <label for="CV">Choose a Cirriculum Vitae (CV):</label>
+    <select name="CV">
+        <option selected>Select a CV</option>
+        <option>Long CV</option>
+        <option>Short CV</option>
+    </select>
+
+    <p><input type="Submit" name="Submit" value="Submit" /></p>
+</form>
+<div style="text-align: center">
+    <a href="longcv.pdf" download target="_blank">
+        <button>Download Long CV</button>
+</a>
+</div>
+<p>
+<div style="text-align: center">
+    <iframe src="longcv.pdf" height="500" width="800"></iframe>
+</div>
+<br>
+<div style="text-align: center">
+    <a href="shortcv.pdf" download target="_blank">
+        <button>Download Short CV</button>
+</a>
+</div>
+<br>
+<div style="text-align: center">
+<iframe src="shortcv.pdf" height="500" width="800"></iframe>
+
+
+</body>
+</html>

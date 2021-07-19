@@ -1,0 +1,43 @@
+body {
+    background: url(https://i.pinimg.com/originals/fd/70/d9/fd70d956e6fd67f7c3af5e9cc3f201f1.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover; 
+  }
+
+  h1 {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  p {
+    font-family: Arial;
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 30px;
+    color: yellow;
+  }
+
+  form {
+    color: white;
+    text-align: center;
+  }
+
+  button {
+    margin-left: 30px;
+  }
+
+
+  
